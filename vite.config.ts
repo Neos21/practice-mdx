@@ -7,6 +7,7 @@ export default defineConfig({
     mdx({ jsxImportSource: 'solid-js/h' }),
     solid()
   ],
+  base: './',
   build: {
     outDir: 'docs',
     emptyOutDir: true
